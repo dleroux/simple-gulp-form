@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple form Component</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+    <link href="./dist/css.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<form class="form form--contact" action="" method="post">
+    <div class="form__row">
+        <label class="form__label">First Name</label>
+        <input class="form__text-input" type="text" value="">
+    </div>
+    <div class="form__row">
+        <label class="form__label">Last Name</label>
+        <input class="form__text-input" type="text" value="">
+    </div>
+    <input type="submit" id="Submit" name="submit" value="Submit">
+</form>
+
+<script src="./dist/build.js"></script>
+<!--
+    python -m SimpleHTTPServer 8000
+    livereload -p 8000
+    gulp
+-->
+</body>
+</html>
